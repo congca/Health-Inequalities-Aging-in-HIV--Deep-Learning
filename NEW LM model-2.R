@@ -3,8 +3,7 @@ library(dplyr)
 library(car)
 library(broom)
 
-# 假设你的数据存储在名为 data 的数据框中
-# 选择因变量
+ # 选择因变量
 dependent_vars <- c("aar", "eeaa", "peaa", "geaa", "dnamtladjage")
 
 # 创建一个空的数据框来存储结果
