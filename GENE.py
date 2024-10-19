@@ -200,7 +200,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 假设 df 是你的数据框
+
 # 将第一列重命名为地理位置
 location_mapping = {
     0: 'Baltimore',
@@ -252,7 +252,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 假设 df 是你的数据框
+
 # 计算降水量和温度的95th百分位数
 precipitation_threshold = df['Precipitation'].quantile(0.95)
 temperature_threshold = df['Temperature'].quantile(0.95)
@@ -296,7 +296,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 假设 df 是你的数据框，且第一列已重命名为地理位置
+
 # 计算降水量和温度的95th百分位数
 precipitation_threshold = df['Precipitation'].quantile(0.95)
 temperature_threshold = df['Temperature'].quantile(0.95)
